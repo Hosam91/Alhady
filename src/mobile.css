@@ -47,6 +47,17 @@
 .quick-links{
     width: 20%;
 }
+.stext{
+  color: #fff!important;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px #0c396f;
+  text-stroke: 1px #0c396f;
+
+}
 
 
   }
