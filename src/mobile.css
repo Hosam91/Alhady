@@ -48,14 +48,15 @@
     width: 20%;
 }
 .stext{
-  color: #fff!important;
+  color: #0c396f!important;
   position: absolute;
-  bottom: 20%;
+  top: 76%;
   left: 10%;
   text-transform: capitalize;
-  font-size: 1.5rem;
-  -webkit-text-stroke: 1px #0c396f;
+  font-size: 1.6rem;
+  -webkit-text-stroke: 1px #fff;
   text-stroke: 1px #0c396f;
+  width: 80%;
 
 }
 

@@ -41,7 +41,10 @@ export default function Home() {
           >
             <SwiperSlide className={s.slidy1}>
               {/* <img src={b} alt="Image 1" /> */}
+              <div className="over">
+
               <h3 className='stext'>Seafty & Creativity the Core of every project</h3>
+              </div>
             </SwiperSlide>
 
             <SwiperSlide className={s.slidy2}>
@@ -50,7 +53,10 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide className={s.slidy3}>
-              <h3 className='stext'>Key Steps To Bring Your Vision To Life</h3>
+                            <div className="over">
+
+                <h3 className='stext'>Key Steps To Bring Your Vision To Life</h3>
+                </div>
             </SwiperSlide>
           </Swiper>
         </div>
