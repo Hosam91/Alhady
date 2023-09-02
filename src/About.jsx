@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 export default function About() {
   return (
     <>
-      <div className="bgab ">
+      <div className="bgab " id='about'>
 
         <div className="row h-100  no-gutters">
        

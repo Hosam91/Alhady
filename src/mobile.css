@@ -3,6 +3,9 @@
 
 @media (max-width: 480px) {
     /* Styles for small mobile phones */
+    .navbar-brand{
+        width: 25%;
+      }
    .my-swipper {
         height: 100vh;
     }
@@ -55,7 +58,9 @@
 /* Tablets  */
   @media (min-width: 481px) and (max-width: 767px) {
     /* Styles for mobile phones */
-
+    .navbar-brand{
+        width: 20%;
+      }
     .my-swipper {
         height: 100vh;
     }

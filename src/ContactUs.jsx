@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ContactUs() {
   return (
-    <div className="contact-form-container">
+    <div className="contact-form-container"  id='contact'>
       <h2>Contact Us</h2>
       <form className="contact-form">
         <div className="form-group">

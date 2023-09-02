@@ -1,6 +1,5 @@
 .seven{
     width: 70%;
-    background-color: blue;
     height: 250px;
     border-radius: .5rem;
 
@@ -8,14 +7,12 @@
 }
 .thirty{
     width: 30%;
-    background-color: rgb(240, 7, 7);
     height: 200px;
     border-radius: .5rem;
 
 }
 .fifty{
     width: 50%;
-    background-color: rgb(90, 58, 58);
     height: 250px;
     border-radius: .5rem;
 

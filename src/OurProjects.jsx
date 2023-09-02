@@ -6,7 +6,7 @@ import s from './OurProjects.module.css'
 export default function OurProjects() {
   return (
     <>
-      <div className={s.myContainer}  >
+      <div className={s.myContainer}  id='projects'>
       <div className={s.seven+s.h7}>
           <img src={b4} alt="" />
         </div>

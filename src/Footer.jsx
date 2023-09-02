@@ -22,20 +22,20 @@ export default function Footer() {
                 <ul className="quick-links w-100  ">
                 
                 <li>
-                <Link to="home">Home</Link>
+                <Link to="/home">Home</Link>
                     
                 </li>
                 <li>
-                <Link to="about">About</Link>
+                <Link to="/about">About</Link>
                     
                 </li>
                 <li>
-                <Link to="projects">project</Link>
+                <Link to="/projects">project</Link>
                     
                 </li>
                 <li>
                     
-                <Link to="contact">Contact Us</Link>
+                <Link to="/contact">Contact Us</Link>
                     </li>
                     </ul>
                 
