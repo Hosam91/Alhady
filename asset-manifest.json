@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Alhady/static/css/main.cc696f6a.css",
+    "main.css": "/Alhady/static/css/main.2041ce16.css",
     "main.js": "/Alhady/static/js/main.0cd1d4e5.js",
     "static/js/787.e58aab7d.chunk.js": "/Alhady/static/js/787.e58aab7d.chunk.js",
     "static/media/key.jpg": "/Alhady/static/media/key.f2aba608da668d913dc8.jpg",
@@ -13,12 +13,12 @@
     "static/media/b1.jpg": "/Alhady/static/media/b1.fe49f286e0e5c94184a7.jpg",
     "static/media/cover.jpg": "/Alhady/static/media/cover.2fbe3306eab86dd37cf6.jpg",
     "index.html": "/Alhady/index.html",
-    "main.cc696f6a.css.map": "/Alhady/static/css/main.cc696f6a.css.map",
+    "main.2041ce16.css.map": "/Alhady/static/css/main.2041ce16.css.map",
     "main.0cd1d4e5.js.map": "/Alhady/static/js/main.0cd1d4e5.js.map",
     "787.e58aab7d.chunk.js.map": "/Alhady/static/js/787.e58aab7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc696f6a.css",
+    "static/css/main.2041ce16.css",
     "static/js/main.0cd1d4e5.js"
   ]
 }
