@@ -441,10 +441,80 @@ button:hover {
   transition: filter 1s ,transform 1s; 
   border-radius: .2rem;
 
+  /* opacity: 0; */
+  transform: translateY(20px);
+  transform: translateY(0);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+
 }
+/* .hovering.show{
+  opacity: 1;
+  transform: translateY(0);
+} */
 .gappy .hovering:hover img{
 transform: scale(1.1)!important;
 
 }
 
 
+
+/* styles.css */
+.hovering {
+  transform: translateY(20px);
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.left-column {
+  animation-name: slideFromLeft;
+  animation-delay: .9s; /* Delay for the left column */
+}
+
+.right-column {
+  animation-name: slideFromRight;
+  animation-delay: .9s; /* Delay for the right column */
+}
+
+.middle-column {
+  animation-name: fadeIn;
+  animation-delay: 1.2s; /* Delay for the middle column */
+}
+
+@keyframes slideFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.gappy:hover .hovering{
+  opacity: 1;
+  transform: translateX(0);
+  
+}
