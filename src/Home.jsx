@@ -162,7 +162,7 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <img src={b} className="card-img-top" alt="..." />
+                <img src={p2} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">ARCHITECTURE</h5>
                   <p className="card-text">

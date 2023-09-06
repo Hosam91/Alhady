@@ -415,33 +415,36 @@ button:hover {
 
 } */
 
+/* Our Porijects */
+
 .gappy img{
   width: 100%;
   height: 100%;
-  /* object-fit: fill; */
+  border-radius: .2rem;
 
-  /* overflow: hidden; */
-  /* transition: filter 0.5s , transform .5s; */
-  /* filter: grayscale(100%);  */
-  transition: filter 1s ,transform 1s; /* Apply the same transition to the img element */
-  /* -webkit-filter: grayscale(100%); */
+  transition: filter 1s ,transform 1s; 
+ 
   overflow-clip-margin: content-box;
     overflow: clip;
 
 
 }
-.gappy img:hover{
-  filter: grayscale(0%); /* Remove the grayscale filter on hover (revert to color) */
+/* .gappy img:hover{
+  filter: grayscale(0%); 
   -webkit-filter: grayscale(0%);
 
-}
-.gappy .col-md-3{
+} */
+.gappy .hovering{
   overflow: hidden;
   object-fit: fill;
-
-
-}
-.gappy .col-md-3:hover  img{
-transform: scale(1.2)!important;
+  max-height: 60vh;
+  transition: filter 1s ,transform 1s; 
+  border-radius: .2rem;
 
 }
+.gappy .hovering:hover img{
+transform: scale(1.1)!important;
+
+}
+
+
