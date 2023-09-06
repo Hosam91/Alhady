@@ -13,12 +13,19 @@ import {
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import contract from './imgs/home/contract.jpg'
-import inter from './imgs/home/inter.jpg'
-import key from './imgs/home/key.jpg'
+import cover from './imgs/home/c2.jpg'
 
-import b from './imgs/home/b2.jpg'
-import c from './imgs/home/c2.jpg'
-import d from './imgs/home/b1.jpg'
+import b from './imgs/home/driving.jpg'
+import c from './imgs/home/seafty.jpg'
+import d from './imgs/home/trust.jpg'
+import p1 from './imgs/faces/8_.webp'
+import p2 from './imgs/faces/11_.webp'
+import p3 from './imgs/home/layout-01.webp'
+import p4 from './imgs/hsooon/21_.webp'
+import p5 from './imgs/hsooon/15_.webp'
+import p6 from './imgs/hsooon/12_.webp'
+import p7 from './imgs/zmety/43_.webp'
+import p8 from './imgs/zmety/50_.webp'
 // import e from './imgs/5.jpeg'
 // import f from './imgs/6.jpeg'
 
@@ -40,7 +47,7 @@ export default function Home() {
            
           >
             <SwiperSlide className={s.slidy1}>
-              {/* <img src={b} alt="Image 1" /> */}
+              <img src={b} alt="Image 1" />
               <div className="over">
 
               <h3 className='stext'>Seafty & Creativity the Core of every project</h3>
@@ -48,12 +55,13 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide className={s.slidy2}>
-              {/* <img src={c} alt="Image 2" /> */}
+              <img src={c} alt="Image 2" />
               <h3 className='stext'>Trust our team bring you vision to life</h3>
             </SwiperSlide>
 
             <SwiperSlide className={s.slidy3}>
                             <div className="over">
+                            <img src={d} alt="Image 2" />
 
                 <h3 className='stext'>Key Steps To Bring Your Vision To Life</h3>
                 </div>
@@ -65,7 +73,7 @@ export default function Home() {
       <div className=" about-section  mt-1">
         <div className="row container-fluid">
           <div className="col-md-6 b p-2 about-img">
-            <img src={c} alt="d" className="w-100 p-2 " />
+            <img src={cover} alt="d" className="w-100 p-2 " />
           </div>
           <div className="col-md-6  p-2">
             <h3 className="p-2">About Us</h3>
@@ -101,28 +109,28 @@ export default function Home() {
               className="col-md-12"
             >
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p1} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p2} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p3} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p4} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p5} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p6} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p7} alt="Image 1" />
               </SwiperSlide>
               <SwiperSlide className="projects-slide">
-                <img src={b} alt="Image 1" />
+                <img src={p8} alt="Image 1" />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -183,7 +191,7 @@ export default function Home() {
           <div className="row justify-content-around my-4">
             <div className="col-md-4">
               <div className="card">
-                <img src={inter} className="card-img-top" alt="..." />
+                <img src={cover} className="card-img-top" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">INTERIOR DESIGN</h5>
                   <p className="card-text">
@@ -197,7 +205,7 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <div className="card">
-                <img src={key} className="card-img-top w-100" alt="..." />
+                <img src={p3} className="card-img-top w-100" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">TURN KEY PROJECTS</h5>
                   <p className="card-text">

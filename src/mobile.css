@@ -105,13 +105,16 @@
         padding-right:0 !important;
     }
     .quick-links {
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
         display: flex;
         flex-wrap: nowrap;
         gap: 5px;
     }
     .quick-links{
         width: 20%;
+    }
+    .gappy .col-md-3{
+        width: 50%;
     }
   }
 

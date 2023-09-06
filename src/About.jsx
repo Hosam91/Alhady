@@ -1,5 +1,5 @@
 import React from 'react'
-import cover from './imgs/home/cover.jpg'
+import cover from './imgs/home/cover_.webp'
 import contract from './imgs/home/contract.jpg'
 import inter from './imgs/home/inter.jpg'
 import key from './imgs/home/key.jpg'
