@@ -22,7 +22,7 @@ export default function About()
     {
       let position = servicRef.current.getBoundingClientRect().y;
       // console.log(position);
-      if (window.scrollY >= position)
+      if (window.scrollY >= position+500)
       {
         // console.log('visable');
         setTimeout(setIscVisible(true), 3000);
