@@ -53,10 +53,12 @@ export default function Home()
     {
       let position = sectionRef.current.getBoundingClientRect().y;
       // console.log(position);
-      if (window.scrollY >= position+500)
+      if (window.scrollY >= position)
       {
         // console.log('visable');
         setIsVisible(true)
+        console.log(window.scrollY,'widow scroll');
+        console.log(position,'position scroll');
         }
     }
      window.addEventListener('scroll', handleScroll);
@@ -134,7 +136,7 @@ export default function Home()
             <img src={cover} alt="d" className="w-100 p-2 " />
           </div>
           {/* className="col-md-6  p-2 text-container"  */}
-          <div className={`col-md-6  ${isVisible&&'text-container'}`}>
+          <div className={`col-md-6 about-text ${isVisible&&'text-container'}`}>
             <h3 className="p-2">About Us</h3>
             <p className="our-text ">
               Alhady Consulting Engineers your trusted partner in engineering
@@ -294,7 +296,7 @@ export default function Home()
         </div>
       
       </div> */}
-      <div className="Services row  container-fluid my-3" ref={servicRef}>
+      <div className="Services row  container-fluid my-3" >
         <div className="col-md-12 ">
           <div className="heading container mb-5">
             <h2 className="section-head">Our Services</h2>
@@ -302,7 +304,7 @@ export default function Home()
           </div>
           <div className="row mt-5">
             <div className="col-md-4">
-              <div className={`card ${isServicVisible && 'text-container'}`}>
+              <div className={`card `}>
                 
               {/* className="card-img-top" */}
                
@@ -332,7 +334,7 @@ export default function Home()
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 "ref={servicRef}>
               <div className="card">
                 <img src={b} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
                 <div className={`card-body ${isServicVisible && 'text-container'}`} >

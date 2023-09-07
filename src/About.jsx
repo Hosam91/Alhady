@@ -14,23 +14,71 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 export default function About()
 {
   
-  const servicRef = useRef(null)
-  const [isServicVisible, setIscVisible] = useState(false)
+  const servicRef1 = useRef(null)
+  const [isServicVisible1, setIsServicVisible1] = useState(false)
+  const servicRef2 = useRef(null)
+  const [isServicVisible2, setIsServicVisible2] = useState(false)
+  const servicRef3 = useRef(null)
+  const [isServicVisible3, setIsServicVisible3] = useState(false)
+  const servicRef4 = useRef(null)
+  const [isServicVisible4, setIsServicVisible4] = useState(false)
+  const servicRef5 = useRef(null)
+  const [isServicVisible5, setIsServicVisible5] = useState(false)
+  
+
+  
+  // useEffect(() =>
+  // {
+  //   const handleScroll = (ref,setTrue) =>
+  // {
+  //   let position = ref.current.getBoundingClientRect().y;
+  //   // console.log(position);
+  //   if (window.scrollY >= position+500)
+  //   {
+  //     // console.log('visable');
+  //     // setTimeout(, 3000);
+  //     setTrue(true)
+
+  //     }
+  // }
+   
+  //   handleScroll(servicRef, setIscVisible);
+    
+  //    window.addEventListener('scroll', handleScroll);
+  //   handleScroll(); 
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, [])
   useEffect(() =>
   {
-    const handleScroll = () =>
+    const handleScroll = (ref,setTrue) =>
+  {
+    const position = ref.current?ref.current.getBoundingClientRect().y:null;
+    // console.log(position);
+    if (window.scrollY >= position+700)
     {
-      let position = servicRef.current.getBoundingClientRect().y;
-      // console.log(position);
-      if (window.scrollY >= position+500)
-      {
-        // console.log('visable');
-        setTimeout(setIscVisible(true), 3000);
+      // console.log('visable');
+      // setTimeout(, 3000);
+      // setIsServicVisible(true)
 
-        }
-    }
+      if (typeof callbackFunction === 'function') {
+        setTrue(true);
+        console.log(isServicVisible1);
+      }
+
+      }
+  }
+   
+  
      window.addEventListener('scroll', handleScroll);
-    handleScroll(); 
+  // handleScroll(servicRef,setIsServicVisible);
+    //  handleScroll(); 
+     handleScroll(servicRef1,setIsServicVisible1);
+     handleScroll(servicRef2,setIsServicVisible2);
+     handleScroll(servicRef3,setIsServicVisible3);
+     handleScroll(servicRef4,setIsServicVisible4);
+     handleScroll(servicRef5,setIsServicVisible5);
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -198,7 +246,7 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
           </div>
         </div>
  */}
-        <div className="Services row  container-fluid my-3" ref={servicRef}>
+        <div className="Services row  container-fluid my-3" ref={servicRef1}>
         <div className="col-md-12 ">
           <div className="heading container mb-5">
             <h2 className="section-head">Our Services</h2>
@@ -206,12 +254,12 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
           </div>
           <div className="row mt-5">
             <div className="col-md-4">
-              <div className={`card ${isServicVisible && 'text-container'}`}>
+              <div className={`card ${isServicVisible1 && 'text-container'}`}>
                 
               {/* className="card-img-top" */}
                
-                <img src={contract}   className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
-                <div className={`card-body ${isServicVisible && 'text-container'}`}  >
+                <img src={contract}   className={`card-img-top ${isServicVisible1 && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible2 && 'text-container'}`}  >
                   <h5 className="card-title" >Contracting</h5>
                   <p className="card-text">
                     We serve you with the common goal of finishing the project
@@ -223,9 +271,9 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
               </div>
             </div>
             <div className="col-md-4">
-              <div className={`card ${isServicVisible && 'image-container'}`}>
-                <img src={p2} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
-                <div  className={`card-body ${isServicVisible && 'text-container'}`} >
+              <div className={`card ${isServicVisible2 && 'image-container'}`}>
+                <img src={p2} className={`card-img-top ${isServicVisible3 && 'image-container'}`} alt="..." />
+                <div  className={`card-body ${isServicVisible3 && 'text-container'}`} >
                   <h5 className="card-title">ARCHITECTURE</h5>
                   <p className="card-text">
                     We take a comprehensive approach to design, working from
@@ -238,8 +286,8 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
             </div>
             <div className="col-md-4">
               <div className="card">
-                <img src={b} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
-                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+                <img src={b} className={`card-img-top ${isServicVisible4 && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible4 && 'text-container'}`} >
                   <h5 className="card-title">PROJECT DEVELOPMENT</h5>
                   <p className="card-text">
                     We provide both conceptual and strategic approaches. We
@@ -252,9 +300,9 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
           </div>
           <div className="row justify-content-around my-4">
             <div className="col-md-4">
-              <div className={`card ${isServicVisible && 'image-container'}`}>
-                <img src={cover} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
-                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+              <div className={`card ${isServicVisible5 && 'image-container'}`}>
+                <img src={cover} className={`card-img-top ${isServicVisible5 && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible5 && 'text-container'}`} >
                   <h5 className="card-title">INTERIOR DESIGN</h5>
                   <p className="card-text">
                     We design interior living & working spaces to make them
@@ -266,9 +314,9 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
               </div>
             </div>
             <div className="col-md-4">
-              <div className={`card ${isServicVisible && 'text-container'}`}>
-                <img src={p3} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
-                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+              <div className={`card ${isServicVisible5 && 'text-container'}`}>
+                <img src={p3} className={`card-img-top ${isServicVisible5 && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible5 && 'text-container'}`} >
                   <h5 className="card-title">TURN KEY PROJECTS</h5>
                   <p className="card-text">
                     The Design-Build process. ALHADY. offers a Turnkey solution

@@ -309,8 +309,8 @@ font-weight: 700;
 }
 
 .card{
-  border:none
-}
+  border:none;
+ }
 .card:hover{
   cursor: pointer;
 
@@ -318,15 +318,21 @@ font-weight: 700;
 .card img,.projects-slide img {
   height: 250px;
   transition: transform .5s;
+    opacity: 0;
+
 }
 
-.card:hover .card img{
+.card:hover .card-img-top{
   transform: scaleY(1.3);
+  opacity: 0;
 }
 .card .card-title{
   text-align: center;
   color: #0c396f;
   font-size: 1.5rem;
+}
+.card-body{
+  opacity: 0;
 }
 
 .contact-form-container {
@@ -457,16 +463,22 @@ transform: scale(1.1)!important;
 .left-column {
   animation-name: slideFromLeft;
   animation-delay: .9s; /* Delay for the left column */
+  opacity: 0;
+
 }
 
 .right-column {
   animation-name: slideFromRight;
   animation-delay: .9s; /* Delay for the right column */
+  opacity: 0;
+
 }
 
 .middle-column {
   animation-name: fadeIn;
   animation-delay: 1.2s; /* Delay for the middle column */
+  opacity: 0;
+
 }
 
 @keyframes slideFromLeft {
@@ -514,6 +526,7 @@ transform: scale(1.1)!important;
 }
 .about-img{
   border-radius: .4rem;
+  opacity: 0;
 
 }
 .about-img img{
@@ -521,16 +534,18 @@ transform: scale(1.1)!important;
   height: 100%;
   width: 100%;
 }
+.about-text{
+  opacity: 0;
+}
 
 /* Home about animations */
 
 .image-container,
 .text-container {
  
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transform: translateX(100%);
+    /* justify-content: center;
+    align-items: center; */
+     transform: translateX(100%);
     animation: slideIn 2s ease-in-out forwards;
 }
 
