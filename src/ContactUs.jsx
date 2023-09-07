@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function ContactUs() {
-  return (
+  return (<>
     <div className="contact-form-container"  id='contact'>
       <h2>Contact Us</h2>
       <form className="contact-form">
@@ -20,5 +20,7 @@ export default function ContactUs() {
         <button type="submit">Submit</button>
       </form>
     </div>
+   
+    </>
   )
 }

@@ -1,15 +1,40 @@
-import React from 'react'
+import React, { useEffect ,useState,useRef} from 'react'
 import cover from './imgs/home/cover_.webp'
 import contract from './imgs/home/contract.jpg'
 import inter from './imgs/home/inter.jpg'
 import key from './imgs/home/key.jpg'
 import b from './imgs/home/b2.jpg'
+import p2 from './imgs/faces/11_.webp'
+import p3 from './imgs/home/layout-01.webp'
 
 import { Navigation, Pagination, A11y,Scrollbar,Autoplay} from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-export default function About() {
+export default function About()
+{
+  
+  const servicRef = useRef(null)
+  const [isServicVisible, setIscVisible] = useState(false)
+  useEffect(() =>
+  {
+    const handleScroll = () =>
+    {
+      let position = servicRef.current.getBoundingClientRect().y;
+      // console.log(position);
+      if (window.scrollY >= position)
+      {
+        // console.log('visable');
+        setTimeout(setIscVisible(true), 3000);
+
+        }
+    }
+     window.addEventListener('scroll', handleScroll);
+    handleScroll(); 
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [])
   return (
     <>
       <div className="bgab " id='about'>
@@ -34,8 +59,8 @@ export default function About() {
           autoplay={{ delay: 2000 }}
       navigation
      
-      onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      //     onSlideChange={() => console.log('slide change')}
           className=' container about-slide'
             >
 
@@ -109,7 +134,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="Services row no-gutters container-fluid">
+        {/* <div className="Services row no-gutters container-fluid">
           <div className="col-md-12">
           <div className="heading container">
                 <h2 className='section-head'>Our Services</h2>
@@ -172,6 +197,92 @@ ALHADY. offers a Turnkey solution for your projects including full design and be
             </div>
           </div>
         </div>
+ */}
+        <div className="Services row  container-fluid my-3" ref={servicRef}>
+        <div className="col-md-12 ">
+          <div className="heading container mb-5">
+            <h2 className="section-head">Our Services</h2>
+            {/* <h2 className="section-head-shadow">OUR Services</h2> */}
+          </div>
+          <div className="row mt-5">
+            <div className="col-md-4">
+              <div className={`card ${isServicVisible && 'text-container'}`}>
+                
+              {/* className="card-img-top" */}
+               
+                <img src={contract}   className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible && 'text-container'}`}  >
+                  <h5 className="card-title" >Contracting</h5>
+                  <p className="card-text">
+                    We serve you with the common goal of finishing the project
+                    on time and within budget. We also provide expert assistance
+                    to our clients through each phase of the project, from
+                    design to implementation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className={`card ${isServicVisible && 'image-container'}`}>
+                <img src={p2} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
+                <div  className={`card-body ${isServicVisible && 'text-container'}`} >
+                  <h5 className="card-title">ARCHITECTURE</h5>
+                  <p className="card-text">
+                    We take a comprehensive approach to design, working from
+                    inception to completion to turn an architectural vision into
+                    reality with pragmatic ideas that are economic and
+                    achievable.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card">
+                <img src={b} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+                  <h5 className="card-title">PROJECT DEVELOPMENT</h5>
+                  <p className="card-text">
+                    We provide both conceptual and strategic approaches. We
+                    offer programming, planning, budgeting, designing,
+                    construction services as well as turnkey solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-around my-4">
+            <div className="col-md-4">
+              <div className={`card ${isServicVisible && 'image-container'}`}>
+                <img src={cover} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+                  <h5 className="card-title">INTERIOR DESIGN</h5>
+                  <p className="card-text">
+                    We design interior living & working spaces to make them
+                    functional, appealing and well-suited to your needs as well
+                    as aesthetic and functional spaces that communicate with
+                    your personality.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className={`card ${isServicVisible && 'text-container'}`}>
+                <img src={p3} className={`card-img-top ${isServicVisible && 'image-container'}`} alt="..." />
+                <div className={`card-body ${isServicVisible && 'text-container'}`} >
+                  <h5 className="card-title">TURN KEY PROJECTS</h5>
+                  <p className="card-text">
+                    The Design-Build process. ALHADY. offers a Turnkey solution
+                    for your projects including full design and bespoke build
+                    services with its many advantages starting from the
+                    integrated design,
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
         </div>
 
       
