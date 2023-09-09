@@ -1,5 +1,10 @@
 import b4 from './imgs/home/layout-01.webp'
-import a from './imgs/faces/6_.webp'
+
+import a1 from './imgs/hsooon/4_.webp'
+import ab2 from './imgs/abobakr/24..jpg'
+import f1 from './imgs/building/120..jpg'
+
+
 import b from './imgs/faces/4_.webp'
 import c from './imgs/faces/3_.webp'
 import d from './imgs/faces/9_.webp'
@@ -7,6 +12,9 @@ import e from './imgs/faces/7_.webp'
 import f from './imgs/faces/8_.webp'
 import g from './imgs/faces/10_.webp'
 import h from './imgs/faces/11_.webp'
+
+
+// zmety
 import k from './imgs/zmety/19_.webp'
 import l from './imgs/zmety/30_.webp'
 import m from './imgs/zmety/31_.webp'
@@ -16,17 +24,13 @@ import q from './imgs/zmety/39_.webp'
 import r from './imgs/zmety/43_.webp'
 import s from './imgs/zmety/44_.webp'
 import t from './imgs/zmety/45_.webp'
-import u from './imgs/zmety/46_.webp'
 import w from './imgs/zmety/50_.webp'
+import u from './imgs/zmety/46_.webp'
 import x from './imgs/zmety/51_.webp'
 import y from './imgs/hsooon/1_.webp'
 import z from './imgs/hsooon/2_.webp'
-import a1 from './imgs/hsooon/4_.webp'
 import a2 from './imgs/hsooon/5_.webp'
-import a3 from './imgs/hsooon/7_.webp'
-import a4 from './imgs/hsooon/10_.webp'
-import a5 from './imgs/hsooon/11_.webp'
-import a6 from './imgs/hsooon/12_.webp'
+
 import a7 from './imgs/hsooon/18_.webp'
 import a8 from './imgs/hsooon/20_.webp'
 import a9 from './imgs/hsooon/21_.webp'
@@ -35,15 +39,52 @@ import h2 from './imgs/hsooon/23_.webp'
 import h3 from './imgs/hsooon/25_.webp'
 import h4 from './imgs/hsooon/26_.webp'
 import b1 from './imgs/bkr/10_.webp'
-import b2 from './imgs/bkr/9_.webp'
-import b3 from './imgs/bkr/8_.webp'
-import b44 from './imgs/bkr/7_.webp'
-import b5 from './imgs/bkr/6_.webp'
-import b6 from './imgs/bkr/5_.webp'
-import b7 from './imgs/bkr/4_.webp'
-import b8 from './imgs/bkr/3_.webp'
-import b9 from './imgs/bkr/2_.webp'
-import b10 from './imgs/bkr/1_.webp'
+import k1 from './imgs/kharasana/171..jpg'
+
+// import kharasana
+import k2 from './imgs/kharasana/1..jpg'
+import k3 from './imgs/kharasana/4..jpg'
+import k4 from './imgs/kharasana/5..jpg'
+import k5 from './imgs/kharasana/6..jpg'
+import k6 from './imgs/kharasana/8..jpg'
+import k7 from './imgs/kharasana/8..jpg'
+import k8 from './imgs/kharasana/9..jpg'
+import k9 from './imgs/kharasana/10..jpg'
+import k10 from './imgs/kharasana/11..jpg'
+import k11 from './imgs/kharasana/12..jpg'
+// import zaghmour
+import z1 from './imgs/zaghmour/70..jpg'
+import z2 from './imgs/zaghmour/72..jpg'
+import z3 from './imgs/zaghmour/76..jpg'
+import z4 from './imgs/zaghmour/77..jpg'
+import z5 from './imgs/zaghmour/81..jpg'
+
+// import flat 
+import fl1 from './imgs/flat/1.jpg'
+import fl2 from './imgs/flat/60..jpg'
+import fl3 from './imgs/flat/125..jpg'
+import fl4 from './imgs/flat/128..jpg'
+import fl5 from './imgs/flat/132..jpg'
+import fl6 from './imgs/flat/60..jpg'
+import fl7 from './imgs/flat/187..jpg'
+import fl8 from './imgs/flat/122..jpg'
+import fl9 from './imgs/flat/107..jpg'
+import fl10 from './imgs/flat/69..jpg'
+// import abo bakr
+
+import ab1 from './imgs/abobakr/23..jpg'
+import ab3 from './imgs/abobakr/26..jpg'
+import ab4 from './imgs/abobakr/28..jpg'
+import ab5 from './imgs/abobakr/29..jpg'
+import ab6 from './imgs/abobakr/30..jpg'
+import ab8 from './imgs/abobakr/31..jpg'
+import ab7 from './imgs/abobakr/32..jpg'
+import ab9 from './imgs/abobakr/33..jpg'
+import ab10 from './imgs/abobakr/35..jpg'
+
+
+
+
 import { useEffect, useState } from 'react'
 
 // import h from './imgs/faces/11_.webp'
@@ -88,39 +129,97 @@ export default function OurProjects() {
         </div>
 
         {/* {`column ${isVisible ? 'show' : ''}`} */}
+        {/* start Hasson  */}
         <div className="col-md-4 hovering  left-column">
-          <img src={b3} alt="" />
-        </div>
-
-        <div className="col-md-4 hovering middle-column">
-          <img src={b9} alt="" />
-        </div>
-
-        <div className="col-md-4 hovering right-column ">
-          <img src={b8} alt="" />
-        </div>
-
-
-        <div className="col-md-4 hovering  left-column">
-          <img src={b7} alt="" />
+          <img src={y} alt="" />
         </div>
         <div className="col-md-4 hovering middle-column">
-          <img src={b6} alt="" />
+          <img src={z} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={a1} alt="" />
+        </div>
+        <div className="col-md-4 hovering  left-column">
+          <img src={a2} alt="" />
+        </div>
+      
+        <div className="col-md-4 hovering right-column">
+          <img src={a7} alt="" />
+        </div>
+        <div className="col-md-4 hovering  left-column">
+          <img src={a8} alt="" />
+        </div>
+         
+        <div className="col-md-4 hovering middle-column">
+          <img src={a9} alt="" />
         </div>
         <div className="col-md-4 hovering right-column">
-          <img src={b5} alt="" />
+          <img src={h1} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={b44} alt="" />
+        <div className="col-md-4 hovering left-column">
+          <img src={h2} alt="" />
         </div>
         <div className="col-md-4 hovering middle-column">
-          <img src={b3} alt="" />
+          <img src={h3} alt="" />
         </div>
         <div className="col-md-4 hovering right-column">
-          <img src={b2} alt="" />
-        </div>
+          <img src={h4} alt="" />
+        </div> 
+        {/* end Hasson  */}
+
+           {/* start AboBakr  */}
+        <div className="col-md-4 hovering right-column">
+          <img src={ab1} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab2} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab3} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab4} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab5} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab6} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab7} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab8} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab9} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab10} alt="" />
+        </div> 
+      
+
+     
+
+
+
+
+
+
+        {/* end Abobakr  */}
+
+      
+
+        {/* start Faces  */}
         <div className="col-md-4 hovering  left-column">
           <img src={b1} alt="" />
+        </div>
+        <div className="col-md-4 hovering  left-column">
+          <img src={f1} alt="" />
+        </div>
+        <div className="col-md-4 hovering  left-column">
+          <img src={k1} alt="" />
         </div>
         <div className="col-md-4 hovering middle-column">
           <img src={b} alt="" />
@@ -146,17 +245,52 @@ export default function OurProjects() {
         <div className="col-md-4 hovering right-column">
           <img src={b4} alt="" />
         </div>
-
-     
+        <div className="col-md-4 hovering right-column">
+          <img src={k2} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k3} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k4} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k5} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k6} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k7} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k8} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k9} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k10} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={k11} alt="" />
+        </div>
+         {/* end Faces  */}
+        {/* start Elzmety  */}
+        <div className="col-md-4 hovering  left-column">
+          <img src={w} alt="" />
+        </div>
         <div className="col-md-4 hovering  left-column">
           <img src={k} alt="" />
         </div>
+       
         <div className="col-md-4 hovering middle-column">
           <img src={l} alt="" />
         </div>
         <div className="col-md-4 hovering right-column">
           <img src={m} alt="" />
         </div>
+       
         <div className="col-md-4 hovering  left-column">
           <img src={o} alt="" />
         </div>
@@ -175,63 +309,69 @@ export default function OurProjects() {
         <div className="col-md-4 hovering right-column">
           <img src={t} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={w} alt="" />
-        </div>
-        {/* <div className="col-md-4 hovering">
-          <img src={v} alt="" />
-        </div> */}
+        
+       
         <div className="col-md-4 hovering middle-column">
           <img src={u} alt="" />
         </div>
         <div className="col-md-4 hovering">
           <img src={x} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={y} alt="" />
-        </div>
-        <div className="col-md-4 hovering middle-column">
-          <img src={z} alt="" />
+        {/* End Elzmety  */}fl1
+        <div className="col-md-4 hovering">
+          <img src={fl1} alt="" />
         </div>
         <div className="col-md-4 hovering">
-          <img src={a1} alt="" />
-        </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={a2} alt="" />
-        </div>
-        <div className="col-md-4 hovering middle-column">
-          <img src={a3} alt="" />
+          <img src={fl2} alt="" />
         </div>
         <div className="col-md-4 hovering">
-          <img src={a4} alt="" />
+          <img src={fl3} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={a5} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl4} alt="" />
         </div>
-        <div className="col-md-4 hovering middle-column">
-          <img src={a6} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl5} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
-          <img src={a7} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl6} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={a8} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl7} alt="" />
         </div>
-        <div className="col-md-4 hovering middle-column">
-          <img src={a9} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl8} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
-          <img src={h1} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl9} alt="" />
         </div>
-        <div className="col-md-4 hovering left-column">
-          <img src={h2} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={fl10} alt="" />
         </div>
-        <div className="col-md-4 hovering middle-column">
-          <img src={h3} alt="" />
+        {/*Start Zaghmour  */}
+        {/*Start flat  */}
+
+        {/* End flat  */}
+        
+        <div className="col-md-4 hovering">
+          <img src={z1} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
-          <img src={h4} alt="" />
+        <div className="col-md-4 hovering">
+          <img src={z2} alt="" />
         </div>
+        <div className="col-md-4 hovering">
+          <img src={z3} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={z4} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={z5} alt="" />
+        </div>
+
+        {/*end Zaghmour  */}
+       
+       
       </div>
     </>
   )

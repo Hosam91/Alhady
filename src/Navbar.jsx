@@ -5,7 +5,7 @@ import logo from "./imgs/logo_.webp"
 export default function Navbar() {
   return (
       <>
-          <nav className="navbar navbar-expand-lg ">
+          <nav className="navbar navbar-expand-lg p-0">
   <div className="container-fluid ">
                   <Link className="navbar-brand" to="#">
                       <img src={logo} className='' alt="Alhady" />
@@ -23,6 +23,12 @@ export default function Navbar() {
                           </li>
                           <li className="nav-item">
           <Link className="nav-link" to="/projects">Projects</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/about">About</Link>
+                          </li>
+                          <li className="nav-item">
+          <Link className="nav-link" to="/designs">Designs</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/contact">Contact Us</Link>

@@ -1,7 +1,7 @@
  
  
  .myswipper{
-    height: 100vh!important;
+    /* height: 100vh!important; */
     padding: 0rem!important;
  }
  
@@ -38,5 +38,5 @@
 .slidy1 img,.slidy2 img,.slidy3 img{
 width: 100%;
 height: 100%;
-object-fit: cover;
+object-fit: contain;
 }
