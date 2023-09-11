@@ -45,12 +45,17 @@
     .my-swipper{
         height: 60vh!important;
     }
-    .about-slide{
-        max-height: 50vh;
-    }
+   
     .swiper-slide{
         overflow: hidden;
+        text-align: center;
     }
+    .about-slid p {
+        font-size: 1rem;
+        font-style: italic;
+        padding: 0.5rem!important;
+        color: #0c396f;
+      }
     
    .section-head-shadow{
     display: none;

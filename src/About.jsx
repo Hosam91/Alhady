@@ -85,15 +85,20 @@ export default function About() {
     <>
       <div className="bgab " id="about">
         <div className="row h-100  no-gutters">
-          <div className="col-md-12 position-relative h-50 about-header ">
+          <div className="col-md-12 position-relative   about-header ">
             {/* <img src={cover} alt="" className='bg-abou w-100 h-100' /> */}
             <div className="heading position-relative">
               <h2 className="text-center section-head  ">ABOUT US</h2>
               {/* <h2 className="section-head-shadow">ABOUT Us</h2> */}
             </div>
 
-            <div className="row no-gutters">
-              <div className="col-md-12 ">
+           
+          </div>
+         
+         
+        </div>
+        <div className="row no-gutters">
+              <div className="col-md-12 p-0 ">
                 <Swiper
                   // install Swiper modules
                   modules={[Navigation, Pagination, Scrollbar, Autoplay, A11y]}
@@ -103,7 +108,7 @@ export default function About() {
                   navigation
                   // onSwiper={(swiper) => console.log(swiper)}
                   //     onSlideChange={() => console.log('slide change')}
-                  className=" container about-slide"
+                  className=" containerss about-slide"
                 >
                   <SwiperSlide className=" about-swiper   p-5 ">
                     <div className="about-slid p-2">
@@ -111,7 +116,8 @@ export default function About() {
                       <p>
                         To be the most trusted firm in the region for innovative
                         design, project management and consulting engineering
-                        services through our commitment to quality, 
+                        services through our commitment to quality, safety,
+                        sustainability, and client satisfaction{' '}
                       </p>
                     </div>
                   </SwiperSlide>
@@ -121,7 +127,8 @@ export default function About() {
                       <p>
                         We are dedicated to providing the highest quality
                         architectural design, technical expertise and project
-                        management services   .
+                        management services to our clients in a manner centered
+                        on trust and professionalism.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -134,17 +141,15 @@ export default function About() {
                 </Swiper>
               </div>
             </div>
-          </div>
-        </div>
-          <div className="row ">
-            <div className="col-md-12 position-relative p-0 m-auto">
+
+            <div className="row ">
+            <div className="col-md-12 position-relative p-0  ">
               <img src={cover} className="w-100 mt-2 rounded" alt="" />
             </div>
-          </div>
-
-        <div className="row no-gutters m-0">
-          <div className="col-md-12 position-relative">
-            <div className="container">
+              </div>
+            <div className="row no-gutters m-0">
+              <div className="col-md-12 position-relative">
+                <div className="container">
               <div className="heading">
                 <h2 className="section-head">Our History</h2>
               </div>

@@ -118,9 +118,9 @@ nav .nav-link {
   text-align: center;
 }
 
-.about-header {
+/* .about-header {
   min-height: 50vh;
-}
+} */
 .heading {
   width: 100%;
   text-align: center;
@@ -161,7 +161,10 @@ nav .nav-link {
   padding: 0;
   opacity: 0.3;
 }
-
+.about-swiper{
+display: flex;
+justify-content: center;
+}
 .about-slid h4 {
   font-size: 2.5rem;
   font-style: italic;
@@ -412,6 +415,9 @@ button:hover {
   transform: translateY(20px);
   transform: translateY(0);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+.hovering img{
+  object-fit: contain;
 }
 /* .hovering.show{
   opacity: 1;

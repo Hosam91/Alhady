@@ -48,6 +48,10 @@ import d41 from './imgs/designs/41.jpg'
 import d42 from './imgs/designs/42.jpg'
 import d43 from './imgs/designs/43.jpg'
 
+import nf10 from './imgs/neww/12.jpg'
+import nf11 from './imgs/neww/13.jpg'
+import nf12 from './imgs/neww/14.jpg'
+import nf13 from './imgs/neww/15.jpg'
 
 export default function Designs() {
   return (
@@ -59,9 +63,7 @@ export default function Designs() {
         </div>
         
 
-        <div className="col-md-4 hovering right-column">
-          <img src={d38} alt="" />
-        </div>
+        
 <div className="col-md-4 hovering right-column">
           <img src={d39} alt="" />
         </div>
@@ -122,7 +124,21 @@ export default function Designs() {
           <img src={b2} alt="" />
         </div>
 
-{/* end abobakr design  */}
+        {/* end abobakr design  */}
+        <div className="col-md-4 hovering right-column">
+          <img src={nf10} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={nf11} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={nf12} alt="" />
+        </div>
+        <div className="col-md-4 hovering right-column">
+          <img src={nf13} alt="" />
+        </div>
+
+
 <div className="col-md-4 hovering right-column">
           <img src={d1} alt="" />
         </div>
@@ -219,9 +235,7 @@ export default function Designs() {
 <div className="col-md-4 hovering right-column">
           <img src={d34} alt="" />
         </div>
-<div className="col-md-4 hovering right-column">
-          <img src={d35} alt="" />
-        </div>
+
 
 
 

@@ -70,6 +70,9 @@ import fl7 from './imgs/flat/187..jpg'
 import fl8 from './imgs/flat/122..jpg'
 import fl9 from './imgs/flat/107..jpg'
 import fl10 from './imgs/flat/69..jpg'
+
+
+
 // import abo bakr
 
 import ab1 from './imgs/abobakr/23..jpg'
@@ -81,8 +84,28 @@ import ab8 from './imgs/abobakr/31..jpg'
 import ab7 from './imgs/abobakr/32..jpg'
 import ab9 from './imgs/abobakr/33..jpg'
 import ab10 from './imgs/abobakr/35..jpg'
+import ab12 from './imgs/neww/10.jpg'
+import ab13 from './imgs/neww/11.jpg'
 
 
+
+//import new flat 
+
+
+import nf1 from './imgs/neww/1.jpg'
+import nf2 from './imgs/neww/2.jpg'
+import nf3 from './imgs/neww/3.jpg'
+import nf4 from './imgs/neww/4.jpg'
+import nf5 from './imgs/neww/5.jpg'
+import nf6 from './imgs/neww/6.jpg'
+import nf7 from './imgs/neww/7.jpg'
+import nf8 from './imgs/neww/8.jpg'
+import nf9 from './imgs/neww/18.jpg'
+// flat design 
+import nf10 from './imgs/neww/12.jpg'
+import nf11 from './imgs/neww/13.jpg'
+import nf12 from './imgs/neww/14.jpg'
+import nf13 from './imgs/neww/15.jpg'
 
 
 import { useEffect, useState } from 'react'
@@ -136,9 +159,9 @@ export default function OurProjects() {
         <div className="col-md-4 hovering middle-column">
           <img src={z} alt="" />
         </div>
-        <div className="col-md-4 hovering">
+        {/* <div className="col-md-4 hovering">
           <img src={a1} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering  left-column">
           <img src={a2} alt="" />
         </div>
@@ -146,10 +169,10 @@ export default function OurProjects() {
         <div className="col-md-4 hovering right-column">
           <img src={a7} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
+        {/* <div className="col-md-4 hovering  left-column">
           <img src={a8} alt="" />
         </div>
-         
+          */}
         <div className="col-md-4 hovering middle-column">
           <img src={a9} alt="" />
         </div>
@@ -168,6 +191,12 @@ export default function OurProjects() {
         {/* end Hasson  */}
 
            {/* start AboBakr  */}
+        <div className="col-md-4 hovering right-column">
+          <img src={ab12} alt="" />
+        </div> 
+        <div className="col-md-4 hovering right-column">
+          <img src={ab13} alt="" />
+        </div> 
         <div className="col-md-4 hovering right-column">
           <img src={ab1} alt="" />
         </div> 
@@ -215,11 +244,15 @@ export default function OurProjects() {
         <div className="col-md-4 hovering  left-column">
           <img src={b1} alt="" />
         </div>
+       
+        <div className="col-md-4 hovering  left-column">
+          <img src={k1} alt="" />
+        </div>
         <div className="col-md-4 hovering  left-column">
           <img src={f1} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
-          <img src={k1} alt="" />
+          <div className="col-md-4 hovering right-column">
+          <img src={b4} alt="" />
         </div>
         <div className="col-md-4 hovering middle-column">
           <img src={b} alt="" />
@@ -233,18 +266,16 @@ export default function OurProjects() {
         <div className="col-md-4 hovering middle-column">
           <img src={e} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
+        {/* <div className="col-md-4 hovering right-column">
           <img src={f} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering  left-column">
           <img src={g} alt="" />
         </div>
         <div className="col-md-4 hovering middle-column">
           <img src={h} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
-          <img src={b4} alt="" />
-        </div>
+      
         <div className="col-md-4 hovering right-column">
           <img src={k2} alt="" />
         </div>
@@ -280,13 +311,13 @@ export default function OurProjects() {
         <div className="col-md-4 hovering  left-column">
           <img src={w} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
+        {/* <div className="col-md-4 hovering  left-column">
           <img src={k} alt="" />
-        </div>
+        </div> */}
        
-        <div className="col-md-4 hovering middle-column">
+        {/* <div className="col-md-4 hovering middle-column">
           <img src={l} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering right-column">
           <img src={m} alt="" />
         </div>
@@ -294,15 +325,15 @@ export default function OurProjects() {
         <div className="col-md-4 hovering  left-column">
           <img src={o} alt="" />
         </div>
-        <div className="col-md-4 hovering middle-column">
+        {/* <div className="col-md-4 hovering middle-column">
           <img src={p} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering right-column">
           <img src={q} alt="" />
         </div>
-        <div className="col-md-4 hovering  left-column">
+        {/* <div className="col-md-4 hovering  left-column">
           <img src={r} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering middle-column">
           <img src={s} alt="" />
         </div>
@@ -314,10 +345,12 @@ export default function OurProjects() {
         <div className="col-md-4 hovering middle-column">
           <img src={u} alt="" />
         </div>
-        <div className="col-md-4 hovering">
+        {/* <div className="col-md-4 hovering">
           <img src={x} alt="" />
-        </div>
-        {/* End Elzmety  */}fl1
+        </div> */}
+        {/* End Elzmety  */}
+
+        {/* start flat  */}
         <div className="col-md-4 hovering">
           <img src={fl1} alt="" />
         </div>
@@ -325,16 +358,47 @@ export default function OurProjects() {
           <img src={fl2} alt="" />
         </div>
         <div className="col-md-4 hovering">
-          <img src={fl3} alt="" />
+          <img src={nf2} alt="" />
         </div>
         <div className="col-md-4 hovering">
-          <img src={fl4} alt="" />
+          <img src={nf9} alt="" />
         </div>
+        <div className="col-md-4 hovering">
+          <img src={nf11} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf12} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf13} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf10} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={fl3} alt="" />
+        </div>
+       
         <div className="col-md-4 hovering">
           <img src={fl5} alt="" />
         </div>
         <div className="col-md-4 hovering">
-          <img src={fl6} alt="" />
+          <img src={nf1} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf4} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf5} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf6} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf7} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
+          <img src={nf8} alt="" />
         </div>
         <div className="col-md-4 hovering">
           <img src={fl7} alt="" />
@@ -346,12 +410,17 @@ export default function OurProjects() {
           <img src={fl9} alt="" />
         </div>
         <div className="col-md-4 hovering">
+          <img src={nf3} alt="" />
+        </div>
+        <div className="col-md-4 hovering">
           <img src={fl10} alt="" />
         </div>
-        {/*Start Zaghmour  */}
-        {/*Start flat  */}
-
         {/* End flat  */}
+
+
+
+        {/*Start Zaghmour  */}
+
         
         <div className="col-md-4 hovering">
           <img src={z1} alt="" />
