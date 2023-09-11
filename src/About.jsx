@@ -111,8 +111,7 @@ export default function About() {
                       <p>
                         To be the most trusted firm in the region for innovative
                         design, project management and consulting engineering
-                        services through our commitment to quality, safety,
-                        sustainability, and client satisfaction{' '}
+                        services through our commitment to quality, 
                       </p>
                     </div>
                   </SwiperSlide>
@@ -122,8 +121,7 @@ export default function About() {
                       <p>
                         We are dedicated to providing the highest quality
                         architectural design, technical expertise and project
-                        management services to our clients in a manner centered
-                        on trust and professionalism.
+                        management services   .
                       </p>
                     </div>
                   </SwiperSlide>
@@ -137,12 +135,12 @@ export default function About() {
               </div>
             </div>
           </div>
+        </div>
           <div className="row ">
             <div className="col-md-12 position-relative p-0 m-auto">
               <img src={cover} className="w-100 mt-2 rounded" alt="" />
             </div>
           </div>
-        </div>
 
         <div className="row no-gutters m-0">
           <div className="col-md-12 position-relative">

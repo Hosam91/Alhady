@@ -4,7 +4,7 @@
 @media (max-width: 480px) {
     /* Styles for small mobile phones */
     .navbar-brand{
-        width: 25%;
+        width: 20%;
       }
       nav .nav-link {
         text-transform: uppercase;
@@ -47,6 +47,9 @@
     }
     .about-slide{
         max-height: 50vh;
+    }
+    .swiper-slide{
+        overflow: hidden;
     }
     
    .section-head-shadow{
@@ -114,7 +117,7 @@ h4,h5,h6{
   @media (min-width: 481px) and (max-width: 767px) {
     /* Styles for mobile phones */
     .navbar-brand{
-        width: 20%;
+        width: 19%;
       }
     .my-swipper {
         height: 100vh;
