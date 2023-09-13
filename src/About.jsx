@@ -56,15 +56,12 @@ export default function About() {
       const position = ref.current
         ? ref.current.getBoundingClientRect().y
         : null
-      // console.log(position);
       if (window.scrollY >= position + 700) {
-        // console.log('visable');
         // setTimeout(, 3000);
         // setIsServicVisible(true)
 
         if (typeof callbackFunction === 'function') {
           setTrue(true)
-          console.log(isServicVisible1)
         }
       }
     }

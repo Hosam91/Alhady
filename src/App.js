@@ -9,6 +9,7 @@ import Home from "./Home";
 import Footer from "./Footer";
 import Designs from "./Designs";
 
+import ScrollToTopButton from './ScrollToTopButton';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
         <Route path="designs" element={ <Designs/>}/>
         <Route path="contact" element={ <ContactUs />}/>    
       </Routes>
-      
+      <ScrollToTopButton />
+
       <Footer/>
       
     </>

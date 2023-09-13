@@ -61,12 +61,9 @@ export default function Home() {
   useEffect(() => {
     const handleScroll = () => {
       let position = sectionRef.current.getBoundingClientRect().y
-      // console.log(position);
       if (window.scrollY >= position) {
-        // console.log('visable');
         setIsVisible(true)
-        console.log(window.scrollY, 'widow scroll')
-        console.log(position, 'position scroll')
+       
       }
     }
     window.addEventListener('scroll', handleScroll)
@@ -78,9 +75,7 @@ export default function Home() {
   useEffect(() => {
     const handleScroll = () => {
       let position = servicRef.current.getBoundingClientRect().y
-      // console.log(position);
       if (window.scrollY >= position + 500) {
-        // console.log('visable');
         setTimeout(setIscVisible(true), 3000)
       }
     }

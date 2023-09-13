@@ -7,8 +7,17 @@ import { FaLocationArrow } from 'react-icons/fa'
 import { FaPhone } from 'react-icons/fa'
 import { FaWhatsapp } from 'react-icons/fa'
 import { BiLogoGmail } from 'react-icons/bi'
+// import { FaWhatsapp } from 'react-icons/bi'
 export default function Footer() {
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+
   return (
+    
     <>
       <div className="myFooter row  m-0 ">
         <div className="col-md-4 llogo border-end   ">
@@ -19,16 +28,19 @@ export default function Footer() {
           <h4 className="w-100 text-center">Quick Links</h4>
           <ul className="quick-links w-100  ">
             <li>
-              <Link to="/home">Home</Link>
+              <Link to="/home" onClick={scrollToTop}>Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about" onClick={scrollToTop}>About</Link>
             </li>
             <li>
-              <Link to="/projects">project</Link>
+              <Link to="/projects"onClick={scrollToTop}>project</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/designs"onClick={scrollToTop}>Designs</Link>
+            </li>
+            <li>
+              <Link to="/contact"onClick={scrollToTop}>Contact</Link>
             </li>
           </ul>
         </div>
@@ -41,29 +53,38 @@ export default function Footer() {
                               </p> */}
 
                 <p className="w-100">
-                  <FaLocationArrow className="" /> Central area -New Damiatta
+                  <FaLocationArrow /> Central area -New Damiatta
                   -Damiatta
                 </p>
               </li>
               <li>
-                <FaPhone /> +201222120629
+                <a href="tel:+201222120629">
+                  <FaPhone /> +201222120629
+                  </a>
               </li>
-              <li>
+              {/* <li>
                 <FaWhatsapp /> +201222120629
-              </li>
+              </li> */}
               <li>
-                <BiLogoGmail /> abduhady2@gmail.com
+                <a href="mailto:abduhady2@gmail.com">
+                  <BiLogoGmail /> abduhady2@gmail.com
+                  </a>
               </li>
               <li className="soical-media">
                 <ul className="d-flex w-100 justify-content-around list-unstyled">
                   <li>
-                    <a href="https://www.facebook.com/alhady.co">
-                      <FaFacebook />
+                    <a href="https://www.facebook.com/alhady.co" >
+                      <FaFacebook  className='facebook-icon'/>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/alhady.co">
-                      <FaInstagram />
+                    <a href="https://www.instagram.com/alhady.co" >
+                      <FaInstagram  className='instagram-icon' />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+201222120629">
+                      <FaWhatsapp   className='whatsapp-icon'/>
                     </a>
                   </li>
                 </ul>

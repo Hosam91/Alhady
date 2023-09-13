@@ -15,24 +15,19 @@ import h from './imgs/faces/11_.webp'
 
 
 // zmety
-import k from './imgs/zmety/19_.webp'
-import l from './imgs/zmety/30_.webp'
+
 import m from './imgs/zmety/31_.webp'
 import o from './imgs/zmety/32_.webp'
-import p from './imgs/zmety/36_.webp'
 import q from './imgs/zmety/39_.webp'
-import r from './imgs/zmety/43_.webp'
 import s from './imgs/zmety/44_.webp'
 import t from './imgs/zmety/45_.webp'
 import w from './imgs/zmety/50_.webp'
 import u from './imgs/zmety/46_.webp'
-import x from './imgs/zmety/51_.webp'
 import y from './imgs/hsooon/1_.webp'
 import z from './imgs/hsooon/2_.webp'
 import a2 from './imgs/hsooon/5_.webp'
 
 import a7 from './imgs/hsooon/18_.webp'
-import a8 from './imgs/hsooon/20_.webp'
 import a9 from './imgs/hsooon/21_.webp'
 import h1 from './imgs/hsooon/22_.webp'
 import h2 from './imgs/hsooon/23_.webp'
@@ -47,7 +42,6 @@ import k3 from './imgs/kharasana/4..jpg'
 import k4 from './imgs/kharasana/5..jpg'
 import k5 from './imgs/kharasana/6..jpg'
 import k6 from './imgs/kharasana/8..jpg'
-import k7 from './imgs/kharasana/8..jpg'
 import k8 from './imgs/kharasana/9..jpg'
 import k9 from './imgs/kharasana/10..jpg'
 import k10 from './imgs/kharasana/11..jpg'
@@ -63,9 +57,7 @@ import z5 from './imgs/zaghmour/81..jpg'
 import fl1 from './imgs/flat/1.jpg'
 import fl2 from './imgs/flat/60..jpg'
 import fl3 from './imgs/flat/125..jpg'
-import fl4 from './imgs/flat/128..jpg'
 import fl5 from './imgs/flat/132..jpg'
-import fl6 from './imgs/flat/60..jpg'
 import fl7 from './imgs/flat/187..jpg'
 import fl8 from './imgs/flat/122..jpg'
 import fl9 from './imgs/flat/107..jpg'
@@ -291,9 +283,9 @@ export default function OurProjects() {
         <div className="col-md-4 hovering right-column">
           <img src={k6} alt="" />
         </div>
-        <div className="col-md-4 hovering right-column">
+        {/* <div className="col-md-4 hovering right-column">
           <img src={k7} alt="" />
-        </div>
+        </div> */}
         <div className="col-md-4 hovering right-column">
           <img src={k8} alt="" />
         </div>

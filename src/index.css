@@ -77,6 +77,16 @@ nav .nav-link {
   border-radius: 0.3rem;
   font-style: oblique;
 }
+.navbar-toggler {
+  color: #fff !important;
+  background-color: #fff;
+}
+
+.navbar-toggler-icon {
+  color: #fff !important;
+  /* background-color: #0920f0; */
+}
+
 .my-swipper {
   height: 100vh !important;
   padding: 2rem !important;
@@ -161,9 +171,9 @@ nav .nav-link {
   padding: 0;
   opacity: 0.3;
 }
-.about-swiper{
-display: flex;
-justify-content: center;
+.about-swiper {
+  display: flex;
+  justify-content: center;
 }
 .about-slid h4 {
   font-size: 2.5rem;
@@ -184,7 +194,7 @@ justify-content: center;
 }
 .myFooter {
   background-color: #055d8081;
-  position: relative;
+  /* position: relative; */
   padding: 2rem;
   z-index: 99999;
   /* color: #0c536f; */
@@ -234,10 +244,12 @@ justify-content: center;
 .quick-links li:hover a {
   color: #ddd;
   font-weight: bold;
+  margin: 0;
 }
 .quick-links li a {
   text-decoration: none;
   color: #0c396f;
+  font-weight: 400;
 }
 .our-contacts {
   width: 100%;
@@ -253,23 +265,90 @@ justify-content: center;
   flex-wrap: wrap;
   width: 80%;
 }
-.info li {
+.our-contacts .info li {
   width: 100%;
   /* white-space: normal; */
   color: #0c396f;
   font-style: italic;
 }
+.our-contacts .info li p {
+  color: inherit;
+}
+.our-contacts .info li a {
+  text-decoration: none;
+  color: inherit;
+}
 .soical-media li {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .soical-media li a {
   color: #0c396f;
   font-size: 2rem;
+  padding: 0;
+  text-decoration: none;
+
+  /* width: 32px;
+  height: 32px; */
 }
-.soical-media li a:hover {
+
+.facebook-icon {
+  color: #003bb9;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.instagram-icon {
+  color: #ffffff;
+  background: -webkit-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
+  background: -o-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  ) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text;
+  border-radius: 0.5rem;
+  width: 32px;
+  height: 32px;
+}
+.whatsapp-icon {
+  color: #fff;
+  background-color: #075e54;
+  border-radius: 50%;
+  object-fit: fill;
+}
+/* .soical-media li a:hover {
   color: #ddd;
   font-size: 2.3rem;
-}
+} */
 
 /* .projects-slide{
   width: 5rem;
@@ -302,6 +381,7 @@ justify-content: center;
 .projects-slide img {
   height: 250px;
   transition: transform 0.5s;
+  object-fit: contain;
 }
 
 .card:hover .card-img-top {
@@ -416,7 +496,7 @@ button:hover {
   transform: translateY(0);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
-.hovering img{
+.hovering img {
   object-fit: contain;
 }
 /* .hovering.show{
@@ -560,4 +640,27 @@ button:hover {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+/* scroll to top Button  */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #011bad;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
 }
