@@ -13,11 +13,10 @@ export default function Footer() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth',
-    });
+    })
   }
 
   return (
-    
     <>
       <div className="myFooter row  m-0 ">
         <div className="col-md-4 llogo border-end   ">
@@ -28,19 +27,29 @@ export default function Footer() {
           <h4 className="w-100 text-center">Quick Links</h4>
           <ul className="quick-links w-100  ">
             <li>
-              <Link to="/home" onClick={scrollToTop}>Home</Link>
+              <Link to="/home" onClick={scrollToTop}>
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/about" onClick={scrollToTop}>About</Link>
+              <Link to="/about" onClick={scrollToTop}>
+                About
+              </Link>
             </li>
             <li>
-              <Link to="/projects"onClick={scrollToTop}>project</Link>
+              <Link to="/projects" onClick={scrollToTop}>
+                project
+              </Link>
             </li>
             <li>
-              <Link to="/designs"onClick={scrollToTop}>Designs</Link>
+              <Link to="/designs" onClick={scrollToTop}>
+                Designs
+              </Link>
             </li>
             <li>
-              <Link to="/contact"onClick={scrollToTop}>Contact</Link>
+              <Link to="/contact" onClick={scrollToTop}>
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
@@ -52,15 +61,14 @@ export default function Footer() {
                     <FaLocationArrow className='' />  Alhady Consulting Engineers
                               </p> */}
 
-                <p className="w-100">
-                  <FaLocationArrow /> Central area -New Damiatta
-                  -Damiatta
+                <p className="w-100 address">
+                  <FaLocationArrow /> Central area -New Damiatta -Damiatta
                 </p>
               </li>
               <li>
                 <a href="tel:+201222120629">
                   <FaPhone /> +201222120629
-                  </a>
+                </a>
               </li>
               {/* <li>
                 <FaWhatsapp /> +201222120629
@@ -68,23 +76,23 @@ export default function Footer() {
               <li>
                 <a href="mailto:abduhady2@gmail.com">
                   <BiLogoGmail /> abduhady2@gmail.com
-                  </a>
+                </a>
               </li>
               <li className="soical-media">
                 <ul className="d-flex w-100 justify-content-around list-unstyled">
                   <li>
-                    <a href="https://www.facebook.com/alhady.co" >
-                      <FaFacebook  className='facebook-icon'/>
+                    <a href="https://www.facebook.com/alhady.co">
+                      <FaFacebook className="facebook-icon" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/alhady.co" >
-                      <FaInstagram  className='instagram-icon' />
+                    <a href="https://www.instagram.com/alhady.co">
+                      <FaInstagram className="instagram-icon" />
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+201222120629">
-                      <FaWhatsapp   className='whatsapp-icon'/>
+                    <a href="https://wa.me/+201222120629">
+                      <FaWhatsapp className="whatsapp-icon" />
                     </a>
                   </li>
                 </ul>
