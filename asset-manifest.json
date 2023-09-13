@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alhady/static/css/main.fc822012.css",
-    "main.js": "/Alhady/static/js/main.596292f6.js",
+    "main.css": "/Alhady/static/css/main.5482ae58.css",
+    "main.js": "/Alhady/static/js/main.43ae5238.js",
     "static/js/787.e58aab7d.chunk.js": "/Alhady/static/js/787.e58aab7d.chunk.js",
     "static/media/layout-01.webp": "/Alhady/static/media/layout-01.297de97d03ded72e7377.webp",
     "static/media/driving.jpg": "/Alhady/static/media/driving.0c6c648f3065cef48487.jpg",
@@ -55,7 +55,6 @@
     "static/media/122..jpg": "/Alhady/static/media/122..0ce995a7d01f9f176539.jpg",
     "static/media/23..jpg": "/Alhady/static/media/23..21a0280a6421fbb928bc.jpg",
     "static/media/40.jpg": "/Alhady/static/media/40.a198ad057ebb59b68a80.jpg",
-    "static/media/36_.webp": "/Alhady/static/media/36_.a8be59252168915790ba.webp",
     "static/media/187..jpg": "/Alhady/static/media/187..7e6a50fb8c0bb3e84dc4.jpg",
     "static/media/35.jpg": "/Alhady/static/media/35.7b469370f390e254db8e.jpg",
     "static/media/3_.webp": "/Alhady/static/media/3_.82f6017d805cfc0da8a1.webp",
@@ -67,7 +66,6 @@
     "static/media/28..jpg": "/Alhady/static/media/28..14a6b7f63b43e5141a9a.jpg",
     "static/media/32.jpg": "/Alhady/static/media/32.15037ca426b1062396cb.jpg",
     "static/media/11_.webp": "/Alhady/static/media/11_.916aa30c47462e65b66a.webp",
-    "static/media/30_.webp": "/Alhady/static/media/30_.425258881ac9ad4c822c.webp",
     "static/media/50_.webp": "/Alhady/static/media/50_.fffcd7971da2f65ac224.webp",
     "static/media/30..jpg": "/Alhady/static/media/30..0bca67988f621c6194e5.jpg",
     "static/media/25_.webp": "/Alhady/static/media/25_.3813945b7b3d605df1ed.webp",
@@ -95,7 +93,6 @@
     "static/media/logo.png": "/Alhady/static/media/logo.9785956ea3c9a7f0bb10.png",
     "static/media/44_.webp": "/Alhady/static/media/44_.10e6b4fea6c1d2588cd1.webp",
     "static/media/14.jpg": "/Alhady/static/media/14.95704f6c9114126da725.jpg",
-    "static/media/19_.webp": "/Alhady/static/media/19_.9877d48eef70b7780e6f.webp",
     "static/media/26.jpg": "/Alhady/static/media/26.7e85ecbaae9db3c27c90.jpg",
     "static/media/9_.webp": "/Alhady/static/media/9_.33ef1dff88600a97fb86.webp",
     "static/media/107..jpg": "/Alhady/static/media/107..6bf3c2455275062897a9.jpg",
@@ -104,11 +101,9 @@
     "static/media/22_.webp": "/Alhady/static/media/22_.3ee4f12bd687ed5c6e22.webp",
     "static/media/23_.webp": "/Alhady/static/media/23_.9d1e30c88b345a9889bc.webp",
     "static/media/c2.jpg": "/Alhady/static/media/c2.5b3d37b5a8e75f0d9c64.jpg",
-    "static/media/20_.webp": "/Alhady/static/media/20_.3dea9d998e47e81d4f18.webp",
     "static/media/31.jpg": "/Alhady/static/media/31.34ddfdfc393d42d224db.jpg",
     "static/media/17.jpg": "/Alhady/static/media/17.2aa26c3898aca3a6a210.jpg",
     "static/media/26_.webp": "/Alhady/static/media/26_.c065740e549d29465200.webp",
-    "static/media/128..jpg": "/Alhady/static/media/128..15bc95e8519eebd38b02.jpg",
     "static/media/27.jpg": "/Alhady/static/media/27.57e94ffd71c66bf8b266.jpg",
     "static/media/24.jpg": "/Alhady/static/media/24.042e959e3ddbbf46ea23.jpg",
     "static/media/21_.webp": "/Alhady/static/media/21_.f8b394e3d1e7c6cb4afc.webp",
@@ -122,12 +117,12 @@
     "static/media/logo_.webp": "/Alhady/static/media/logo_.917f9353b0a6181eecce.webp",
     "static/media/cover_.webp": "/Alhady/static/media/cover_.d3d436c565a085458916.webp",
     "index.html": "/Alhady/index.html",
-    "main.fc822012.css.map": "/Alhady/static/css/main.fc822012.css.map",
-    "main.596292f6.js.map": "/Alhady/static/js/main.596292f6.js.map",
+    "main.5482ae58.css.map": "/Alhady/static/css/main.5482ae58.css.map",
+    "main.43ae5238.js.map": "/Alhady/static/js/main.43ae5238.js.map",
     "787.e58aab7d.chunk.js.map": "/Alhady/static/js/787.e58aab7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc822012.css",
-    "static/js/main.596292f6.js"
+    "static/css/main.5482ae58.css",
+    "static/js/main.43ae5238.js"
   ]
 }
