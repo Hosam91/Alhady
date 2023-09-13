@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Alhady/static/css/main.5482ae58.css",
-    "main.js": "/Alhady/static/js/main.43ae5238.js",
+    "main.css": "/Alhady/static/css/main.9f0091cb.css",
+    "main.js": "/Alhady/static/js/main.7a9d7d8a.js",
     "static/js/787.e58aab7d.chunk.js": "/Alhady/static/js/787.e58aab7d.chunk.js",
     "static/media/layout-01.webp": "/Alhady/static/media/layout-01.297de97d03ded72e7377.webp",
     "static/media/driving.jpg": "/Alhady/static/media/driving.0c6c648f3065cef48487.jpg",
@@ -117,12 +117,12 @@
     "static/media/logo_.webp": "/Alhady/static/media/logo_.917f9353b0a6181eecce.webp",
     "static/media/cover_.webp": "/Alhady/static/media/cover_.d3d436c565a085458916.webp",
     "index.html": "/Alhady/index.html",
-    "main.5482ae58.css.map": "/Alhady/static/css/main.5482ae58.css.map",
-    "main.43ae5238.js.map": "/Alhady/static/js/main.43ae5238.js.map",
+    "main.9f0091cb.css.map": "/Alhady/static/css/main.9f0091cb.css.map",
+    "main.7a9d7d8a.js.map": "/Alhady/static/js/main.7a9d7d8a.js.map",
     "787.e58aab7d.chunk.js.map": "/Alhady/static/js/787.e58aab7d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5482ae58.css",
-    "static/js/main.43ae5238.js"
+    "static/css/main.9f0091cb.css",
+    "static/js/main.7a9d7d8a.js"
   ]
 }
